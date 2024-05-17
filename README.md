@@ -52,3 +52,26 @@ Blue points represent data samples tagged as "Biceps".
 Orange points represent data samples tagged as "Shoulder".
 Green points represent data samples tagged as "Triceps".
 The plot helps in visualizing how well-separated these categories are, which is crucial for tasks like classification in machine learning. If the colors (categories) are well-separated, it indicates that the features used are effective in distinguishing between these different categories. If they overlap significantly, it might suggest that the current features are not sufficient for reliable classification and might require further refinement or the addition of other distinguishing features.
+
+
+## Data explorer 
+
+![ES Project - Classifier - Edge Impulse - Google Chrome 5_17_2024 3_54_58 PM](https://github.com/hussaina90/ii/assets/170102178/86a53c85-d0f6-4ff1-a00b-9542fb7b5780)
+
+Green points represent correctly classified samples for each category:
+
+Light green for "Biceps"
+
+Medium green for "Shoulder"
+
+Dark green for "Triceps"
+Red points indicate incorrectly classified samples:
+
+Light red for "Biceps"
+
+Medium red for "Shoulder"
+
+Dark red for "Triceps"
+
+The plot is useful for identifying patterns in how data is being misclassified, which can help in refining the model or choosing more suitable features for classification. It also provides a visual measure of the model's performance on the full training set. The overlap of red and green points indicates areas where the classifier may struggle or where the features may not be distinct enough for accurate classification.
+Additional metrics provided below the plot, such as the inference time (3 ms), peak RAM usage (1.8K), and flash usage (23.0K), are technical specifications important for deploying the model on a device, considering performance and resource constraints. The use of the EON™ Compiler suggests that the model is being optimized for efficient on-device performance
