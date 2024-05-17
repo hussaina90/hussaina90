@@ -39,7 +39,16 @@ Edge Impulse
 
  5- Analysis the data for each exercise 
 
- 6-Classification: Edge Impulse is used to classify the Perfect Trining  data  into bad trining
+ 6-Classification: Edge Impulse is used to classify the Perfect Trining  data  into bad trinin
 
  7-Training: The data is trained to improve the accuracy of trining classification
 
+
+## Feature explorer 
+
+![ES Project - Classifier - Edge Impulse - Google Chrome 5_17_2024 3_57_30 PM](https://github.com/hussaina90/image-/assets/170102178/9eabc221-099c-45c0-b6d5-953569ab2a9a)
+
+Blue points represent data samples tagged as "Biceps".
+Orange points represent data samples tagged as "Shoulder".
+Green points represent data samples tagged as "Triceps".
+The plot helps in visualizing how well-separated these categories are, which is crucial for tasks like classification in machine learning. If the colors (categories) are well-separated, it indicates that the features used are effective in distinguishing between these different categories. If they overlap significantly, it might suggest that the current features are not sufficient for reliable classification and might require further refinement or the addition of other distinguishing features.
